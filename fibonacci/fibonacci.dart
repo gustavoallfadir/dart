@@ -13,7 +13,7 @@ class Fibonacci {
     print(a);
     print(b);
     print(c);
-    while (c <= this.max) {
+    while (true) {
       a = b;
       b = c;
       c = a + b;
